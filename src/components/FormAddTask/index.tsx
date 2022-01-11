@@ -24,7 +24,10 @@ export const FormAddTask = () => {
             value={task}
             onChange={(e) => setTask(e.target.value)}
           />
-          <StyledButton onClick={() => addTask(task)}>
+          <StyledButton onClick={() => {
+            addTask(task)
+            setTask('')
+          }}>
             +
           </StyledButton>
         </div>

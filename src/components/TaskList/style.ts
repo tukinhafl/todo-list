@@ -4,6 +4,10 @@ export const StyledList = styled.ul`
   height: 400px;
   margin-top: 80px;
 
+  h1 {
+    font-size: 20px;
+  }
+
   .container {
     display: flex;
     align-items: center;
